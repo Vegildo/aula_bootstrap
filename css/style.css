@@ -1,0 +1,33 @@
+body {
+    font: 20px Arial, sans-serif;
+}
+
+.first-container {
+    background-color: #E4E3FD;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#tit-quem-somos {
+    margin-bottom: 30px;    
+}
+
+#tit-servicos {
+    margin-bottom: 30px;
+}
+
+h4 {
+    margin-top: 15px;
+}
+
+.second-container {
+    background-color: #CCDEE3;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.third-container {
+    background-color: #E3FDFC;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}

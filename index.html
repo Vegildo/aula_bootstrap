@@ -1,14 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-b">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
     <title>Minha página</title>
 </head>
 <body>
-    <button type="button" class="btn btn-outline-danger">Danger</button>
+    
+  <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">    
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="rounded-circle" src="img/eu pintura oleo 100x100.JPG" alt="Leonardo Bbraga Sales de Souza" width="80" height="80">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#quem-somos">Quem somos!</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#parceiros">Parceiros</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#servicos">Serviços</a>
+          </li>  
+      </div>
+    </div>    
+  </nav>
+
+  <section id="quem-somos">
+    <div class="container-fluid first-container text-center">
+      <h3 id="tit-quem-somos">QUEM SOMOS</h3>
+      <img src="img/time.jpg" width="400" height="400" class="rounded-circle" alt="Foto de fauxels no Pexels">
+      <h4>Somos um time comprometido com o os resultados e o cliente.</h4>
+    </div>
+  </section>
+
+  <section id="parceiros">
+    <div class="container-fluid second-container text-center">
+      <h3>PARCEIROS</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/logo-mooi.jpg" width="300" height="300" alt="Foto de Magda Ehlers no Pexels" class="rounded-circle">
+            <h4>Empresa BR HUEHUEHUE</h4>
+          </div>
+          <div class="col-md-4">
+            <img src="img/logo-slack.jpg" width="300" height="300" alt="Foto de Scott Webb no Pexels" class="rounded-circle">
+            <h4>Empresa de venda ed hashtags</h4>
+          </div>
+          <div class="col-md-4">
+            <img src="img/logo-fire.jpg" width="300" height="300" alt="Foto de Frank Cone no Pexels" class="rounded-circle">
+            <h4>Empresa de conteúdo adulto</h4>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="container-fluid third-container text-center">
+      <h3 id="tit-servicos">SERVIÇOS</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <p>Serviços em casa, home on demand. Que consistem em.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus explicabo repellendus vero, error ea dolores saepe laboriosam fugit rerum optio quo ut facere unde minima ullam eos obcaecati, incidunt voluptate!</p>
+            <img src="img/morena.jpg" width="300" height="300" alt="Foto de Vlada Karpovich no Pexels" class="rounded-circle">
+          </div>          
+          <div class="col-lg-6">
+            <p>Serviços no trabalho, job on demand. Que consistem em... Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolore unde non! Sit enim earum aliquid incidunt a, dolores itaque non unde tenetur nesciunt recusandae. Labore suscipit ratione officiis ducimus.</p>
+            <img src="img/trab.jpg" width="300" height="300" alt="Foto de ANTONI SHKRABA no Pexels" class="rounded-circle">
+          </div>          
+        </div>
+    </div>
+  </section>
+
+  
+    <footer class="container-fluid text-center">      
+      <p class="text-center">Desenvolvido por <strong>VV, o TAL</strong> <img src="img/FC Vaduz.png" width="30" height="24" alt="FC Vaduz, clube de futebol da primeira divisão da suiça.">  </p>   
+    </footer>
 </body>
 </html>
